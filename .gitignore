@@ -1,0 +1,35 @@
+# Fichiers et dossiers compilés Java
+bin/
+*.class
+
+# Dossiers de sortie de compilation spécifiques à certains IDEs/outils
+out/
+target/
+
+# Fichiers de logs
+*.log
+*.log.?
+*.log.*.gz
+
+# Fichiers spécifiques à l'IDE VS Code
+.vscode/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers spécifiques à certains IDEs Java
+# .idea/       # Si tu utilisais IntelliJ IDEA
+# *.iml        # Si tu utilisais IntelliJ IDEA
+# *.project    # Si tu utilisais Eclipse
+# *.classpath  # Si tu utilisais Eclipse
+# .settings/   # Si tu utilisais Eclipse
+
+# Concernant le dossier lib/ et le .jar du driver JDBC:
+# Si tu décides de l'ignorer (car dans un projet plus avancé on utiliserait Maven/Gradle):
+# lib/
+# *.jar dans lib/
+# Si tu décides de le garder pour faciliter l'évaluation de ton TP (ce qui est acceptable pour ce contexte):
+# Laisse les lignes ci-dessus commentées ou supprime-les pour que lib/ et son contenu soient inclus.
+# Pour ce TP, je te suggère de le GARDER (donc ne pas ajouter lib/ au .gitignore)
+# et d'expliquer dans ton README que le driver est inclus.
